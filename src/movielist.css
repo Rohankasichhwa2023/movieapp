@@ -1,0 +1,66 @@
+.movie-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.movie-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.movie-rank {
+    font-weight: bold;
+    font-size: 18px;
+    width: 40px;
+    text-align: right;
+}
+
+.movie-poster {
+    width: 60px;
+    border-radius: 4px;
+    flex-shrink: 0;
+}
+
+.movie-info {
+    flex: 1;
+}
+
+.movie-title {
+    font-size: 18px;
+    margin: 0;
+}
+
+.movie-meta {
+    font-size: 14px;
+    color: #666;
+    margin: 3px 0;
+}
+
+.movie-rating {
+    font-size: 14px;
+    margin: 3px 0;
+    color: #444;
+}
+
+.movie-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.link-btn {
+    background: none;
+    border: none;
+    color: #1a73e8;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0;
+}
+
+.link-btn:hover {
+    text-decoration: underline;
+}
